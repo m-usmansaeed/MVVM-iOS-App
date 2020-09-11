@@ -18,6 +18,8 @@ protocol reloadTableViewDelegate {
 
 class ViewModel {
     
+    
+    
     var items = [Model]()
     var reloadDelegate: reloadTableViewDelegate?
     var itemJson = [["phoneContactNumber":"71111111","phoneContactName":"Omar Thamri"],

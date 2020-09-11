@@ -57,8 +57,8 @@ extension ViewController: reloadTableViewDelegate {
         itemTableView.beginUpdates()
         itemTableView.insertRows(at: [IndexPath(row: index-1,section: 0)], with: .automatic)
         itemTableView.endUpdates()
-        let alert = UIAlertController(title: "", message: "Contact Added Successfully", preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        let alert = UIAlertController(title: "", message: "Contact Added Successfully", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     
