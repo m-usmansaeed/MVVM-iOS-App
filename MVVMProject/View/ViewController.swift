@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var itemTableView: UITableView!
     @IBOutlet weak var phoneNameTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
