@@ -26,7 +26,7 @@ class ViewModel {
     
     init(viewDelegate: reloadTableViewDelegate) {
         reloadDelegate = viewDelegate
-        self.items = Model.modelFromDictionnaryArray(array: itemJson as! NSArray)
+        self.items = Model.modelFromDictionnaryArray(array: itemJson as NSArray)
         print("items count",items.count)
     }
     
