@@ -22,7 +22,7 @@ class ViewModel {
     
     var items = [Model]()
     var reloadDelegate: reloadTableViewDelegate?
-    var itemJson = [["phoneContactNumber":"71111111","phoneContactName":"Omar Thamri"],
+    var itemJson = [["phoneContactNumber":"71111111","phoneContactName":"Omar Thamr"],
                     ["phoneContactNumber":"72222222","phoneContactName":"Bill Gates"],
                     ["phoneContactNumber":"73333333","phoneContactName":"Jeff Bezos"]]
     
