@@ -25,7 +25,7 @@ class MVVMProjectTests: XCTestCase {
 
         let isOK = 1
         
-        XCTAssert(isOK == 0, "isOK should be greater than 0")
+        XCTAssert(isOK == 1, "isOK should be greater than 0")
         
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
